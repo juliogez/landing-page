@@ -1,2 +1,2 @@
 # landing-page
-Web developerlanding page.
+Web developer landing page.
