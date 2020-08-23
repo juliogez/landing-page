@@ -35,11 +35,15 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   p {
-    color: #757575;
+    color: #7a7979;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
   }
+  #caja {
+    color: #29ca8e;
+
+ }
 
 
 
@@ -107,39 +111,7 @@ http://www.tooplate.com/view/2106-soft-landing
     height: 100%;
   }
 
-  .online-form {
-    position: relative;
-  }
-
-  .online-form .form-control {
-    border-color: #f0f0f0;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 50px;
-    box-shadow: none;
-    height: 50px;
-    margin-right: 0.5em;
-    padding-left: 15px;
-  }
-
-  .online-form input[type="email"] {
-    width: 60%;
-  }
-
-  .online-form button {
-    background: #29ca8e;
-    border: 0;
-    color: #ffffff;
-    position: absolute;
-    right: 6em;
-    width: 25%;
-  }
-
-  .online-form button:hover {
-    background: #202020;
-    color: #ffffff;
-  }
-
+  
 
 
   /*---------------------------------------
@@ -599,43 +571,6 @@ http://www.tooplate.com/view/2106-soft-landing
 
 
 
-  /*---------------------------------------
-      CONTACT             
-  -----------------------------------------*/
-
-  #contact-form .col-md-12,
-  #contact-form .col-md-4 {
-    padding-left: 0;
-  }
-
-  #contact-form .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 3px solid #f0f0f0;
-    border-radius: 0;
-    box-shadow: none;
-    margin: 10px 0;
-  }
-
-  #contact-form .form-control:focus {
-    border-bottom-color: #202020;
-  }
-
-  #contact-form input {
-    height: 50px;
-  }
-
-  #contact-form input[type='submit'] {
-    background: #202020;
-    border-radius: 50px;
-    border: 0;
-    color: #ffffff;
-  }
-
-  #contact-form input[type='submit']:hover {
-    background: #29ca8e;
-    color: #ffffff;
-  }
   
 
 
