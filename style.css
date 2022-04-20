@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #c31432, #240b36);
+  box-shadow: 0 0 20px rgb(201, 201, 201);
+}
+
+#title {
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+#nav-bar {
+  display: flex;
+
+  flex-direction: reverse;
+  fle-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+#header-img {
+  width: 30%;
+}
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  display: flex;
+}
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 70px;
+}
+
+form {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+input {
+  margin-top: 30px;
+  line-height: 27px;
+}
+
+#submit {
+  margin-top: 20px;
+  padding: 10px;
+  background: orange;
+  font-weight: bold;
+  color: black;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+article {
+  width: 50%;
+  margin: 20px;
+}
+
+#how-it-works {
+  margin: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.level {
+  margin: 20px;
+
+  font-weight: bold;
+  color: darkred;
+}
+
+.product {
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  padding-top: 0px;
+
+  border: 2px solid black;
+}
+
+.btn {
+  font-size: large;
+  font-weight: bold;
+  background: orange;
+  margin-top: 20px;
+  padding: 13px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    width: 100%;
+  }
+
+  #pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+}
